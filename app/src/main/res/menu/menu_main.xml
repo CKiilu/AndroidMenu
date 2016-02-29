@@ -4,13 +4,13 @@
     tools:context="com.scurrae.chris.androidmenu.MainActivity" >
 
     <group android:checkableBehavior="single">
-        <item android:id="@+id/action_settings"
-            android:title="@string/action_settings"
+        <item android:id="@+id/exitapp"
+            android:title="@string/options_exit_text"
             android:orderInCategory="100"
             app:showAsAction="never"
             android:icon="@drawable/leaf"/>
-        <item android:id="@+id/exitapp"
-            android:title="@string/options_exit_text"
+        <item android:id="@+id/action_settings"
+            android:title="@string/action_settings"
             app:showAsAction="ifRoom|withText"
             android:orderInCategory="101"
             android:icon="@drawable/paperplane"
